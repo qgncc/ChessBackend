@@ -1,7 +1,7 @@
 const express = require('express')
 const WebSocketServer = require('ws').WebSocketServer;
 const http = require('http');
-const GameState = require('GameState');
+const GameState = require('./GameState');
 
 const port = 8080;
 const host = "localhost";
